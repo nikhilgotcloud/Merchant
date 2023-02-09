@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 
 :root {
   --nav-width: 68px;
   --header-height: 45px;
 
   --font-family: "Poppins", sans-serif;
-  --dark-blue: #0a1930;
+  --dark-blue: #000000;
   --light-blue: #1f93ff;
 
   --color-white: #fff;
@@ -15,11 +15,11 @@
   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 
   --color-purple: #9d0191;
-  --color-orange: #ff7722;
+  --color-orange: #3a30fa;
 
   --color-primary: #007bff;
   --color-success: #28a745;
-  --color-danger: orangered;
+  --color-danger: rgb(58, 104, 255);
 }
 
 * {
@@ -197,7 +197,7 @@ p {
   color: #007bff;
 }
 .--color-danger {
-  color: orangered;
+  color: rgb(87, 69, 255);
 }
 .--color-success {
   color: #28a745;
@@ -328,7 +328,7 @@ p {
 }
 .--btn-danger {
   color: #fff;
-  background: orangered;
+  background: rgb(48, 82, 255);
 }
 
 .--btn-success {

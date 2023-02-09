@@ -84,7 +84,7 @@ const ProductList = ({ products, isLoading }) => {
       <div className="table">
         <div className="--flex-between --flex-dir-column">
           <span>
-            <h3>Inventory Items</h3>
+            <h3>Your Product List</h3>
           </span>
           <span>
             <Search
@@ -103,7 +103,7 @@ const ProductList = ({ products, isLoading }) => {
             <table>
               <thead>
                 <tr>
-                  <th>s/n</th>
+                  <th>Sr No.</th>
                   <th>Name</th>
                   <th>Category</th>
                   <th>Price</th>
@@ -122,18 +122,18 @@ const ProductList = ({ products, isLoading }) => {
                       <td>{shortenText(name, 16)}</td>
                       <td>{category}</td>
                       <td>
-                        {"$"}
+                        {"₹"}
                         {price}
                       </td>
                       <td>{quantity}</td>
                       <td>
-                        {"$"}
+                        {"₹"}
                         {price * quantity}
                       </td>
                       <td className="icons">
                         <span>
                           <Link to={`/product-detail/${_id}`}>
-                            <AiOutlineEye size={25} color={"purple"} />
+                            <AiOutlineEye size={25} color={"magenta"} />
                           </Link>
                         </span>
                         <span>

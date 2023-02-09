@@ -1,5 +1,5 @@
 import React from 'react';
-import{RiProductHuntLine} from "react-icons/ri";
+import{BsCartPlus} from "react-icons/bs";
 import {Link} from "react-router-dom";
 import "./Home.scss";
 import heroImg from "../../assets/inv-img.png";
@@ -11,7 +11,7 @@ const Home = () => {
     <div className='home'>
         <nav className="conatiner --flex-between">
          <div className="logo">
-          <RiProductHuntLine size={35}/>
+          <BsCartPlus size={35}/>
          </div>
          <ul className="home-links">
           <ShowOnLogout>
@@ -40,20 +40,19 @@ const Home = () => {
         {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-          <h2>Inventory {"&"} Stock Management Solution</h2>
+          <h2>{"𝘊𝘈𝘙𝘛+"} : One Stop Solution to list your products</h2>
           <p>
-            Inventory system to control and manage proucts in the warehouse in
-            real timeand integrated to make it easier to develop your business.
+            List you products and manage your stocks on Ecommerce Website With bulit in text editor, Store Stats, and much more with {"𝘊𝘈𝘙𝘛+"} .  
           </p>
           <div className="hero-buttons">
             <button className="--btn --btn-secondary">
-              <Link to="/dashboard">Free Trial 1 Month</Link>
+              <Link to="/dashboard">Get You Trial Now</Link>
             </button>
-          </div>
+          </div> 
           <div className="--flex-start">
-            <NumberText num="14K" text="Brand Owners" />
-            <NumberText num="23K" text="Active Users" />
-            <NumberText num="500+" text="Partners" />
+            <NumberText num="10K" text="Active Users" />
+            <NumberText num="5K" text="Brand Owners" />
+            <NumberText num="100+" text="Partners" />
           </div>
         </div>
 
