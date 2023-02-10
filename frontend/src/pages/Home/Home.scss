@@ -53,6 +53,8 @@
 
 .hero-image {
     width: 50%;
+    margin: 10px;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -74,7 +76,7 @@
         width: 100%;
 
         &img {
-            width: 100%;
+            width: 50%;
         }
     }
 }

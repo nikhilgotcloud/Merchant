@@ -98,7 +98,7 @@ const ProductList = ({ products, isLoading }) => {
 
         <div className="table">
           {!isLoading && products.length === 0 ? (
-            <p>-- No product found, please add a product...</p>
+            <p style={{"fontFamily":"cursive"}}><b>No product found !!!, please add a product....</b></p>
           ) : (
             <table>
               <thead>
